@@ -1,5 +1,5 @@
 ---
 
-- hosts: labor
+- hosts: bandit-staging
   roles:
     - ../roles/server

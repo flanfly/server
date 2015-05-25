@@ -1,5 +1,5 @@
 ---
 
-- hosts: bandit
+- hosts: bandit-staging
   roles:
     - ../roles/public
