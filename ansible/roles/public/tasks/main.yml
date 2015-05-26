@@ -32,6 +32,8 @@
       - "/srv/docker/ldap:/var/lib/ldap"
     env:
       SLAPD_PASSWORD: "test"
+    ports:
+      - "6389:389"
 
 - name: wiki
   docker:
